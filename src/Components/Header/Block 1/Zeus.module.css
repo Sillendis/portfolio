@@ -1,0 +1,19 @@
+.All {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  background-color: black;
+}
+
+.Zeus {
+  width: 1000px;
+}
+
+.lightning {
+width: 55px;
+margin-top: 35px;
+}
+
+.info {
+    color: white;
+    display: grid;
+}
