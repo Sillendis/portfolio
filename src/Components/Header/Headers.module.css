@@ -21,11 +21,13 @@
   display: grid;
   padding: 10px;
   margin: 10px;
+  padding: 3px;
+  margin: 3px;
 }
 
 .others {
-  padding: 10px;
-  margin: 10px;
+  padding: 3px;
+  margin: 3px;
 }
 
 .blue_link {
@@ -36,4 +38,24 @@
 .link {
   text-decoration: none;
   color: whitesmoke;
+}
+
+.mountain {
+  width: 45px;
+  margin-top: 10px;
+}
+
+.cerberus {
+  width: 45px;
+  margin-top: 10px;
+}
+
+.medusa {
+  width: 45px;
+  margin-top: 10px;
+}
+
+.AncientGrecee {
+  width: 43px;
+  margin-top: 10px;
 }

@@ -1,30 +1,27 @@
 import styles from "../Header/Headers.module.css";
+import mountain from "../../assets/Mountain_MainGods.png";
+import cerberus from "../../assets/Cerberus.png";
+import medusa from "../../assets/Medusa.png";
+import AncientGrecee from "../../assets/Ancient_Greece.png";
 const Header = (props) => {
   return (
     <header className={styles.wrapper}>
-        <></>
+      <></>
       <div className={styles.main_above}>
         <h1>Olympians</h1>
       </div>
       <div className={styles.blue_one}>
         <b>
           <a href="" className={styles.blue_link}>
-            Main Gods{" "}
+            Main Gods
+            <img src={mountain} className={styles.mountain}></img>{" "}
           </a>
         </b>
       </div>
       <div className={styles.others}>
         <b>
           <a href="" className={styles.link}>
-            Underworld{" "}
-          </a>
-        </b>
-      </div>
-      <div className={styles.others}>
-        <b>
-          <a href="" className={styles.link}>
-            {" "}
-            Other creatures{" "}
+            Underworld<img src={cerberus} className={styles.cerberus}></img>{" "}
           </a>
         </b>
       </div>
@@ -32,7 +29,22 @@ const Header = (props) => {
         <b>
           <a href="" className={styles.link}>
             {" "}
-            Ancient Greece{" "}
+            Other creatures<img
+              src={medusa}
+              className={styles.medusa}
+            ></img>{" "}
+          </a>
+        </b>
+      </div>
+      <div className={styles.others}>
+        <b>
+          <a href="" className={styles.link}>
+            {" "}
+            Ancient Greece
+            <img
+              src={AncientGrecee}
+              className={styles.AncientGrecee}
+            ></img>{" "}
           </a>
         </b>
       </div>
