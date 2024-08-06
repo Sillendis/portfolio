@@ -6,34 +6,39 @@ const Zeus = (props) => {
   return (
     <div className={styles.All}>
       <div>
-        <img src={god} className={styles.Zeus}></img>
+        <img src={god} className={styles.Zeus} alt="Zeus"></img>
       </div>
       <div className={styles.info}>
-        <h1>
-          Zeus<img src={power} className={styles.lightning}></img>
-        </h1>
+        <div className={styles.title_container}>
+          <h1>
+            Zeus
+            <img src={power} className={styles.lightning} alt="lightning" />
+          </h1>
+        </div>
         <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam
-          eligendi sint maiores earum enim beatae quaerat eveniet molestiae rem?
-          Veniam placeat asperiores quia earum corporis magni. Laboriosam in,
-          facilis minus dicta illum incidunt accusamus eligendi, porro adipisci,
-          vitae sint ex dolores neque expedita magni recusandae labore. Ullam
-          soluta dolore autem ipsam cumque quisquam fugiat repudiandae
-          voluptates, enim obcaecati aperiam tempora? Quidem nulla adipisci
-          tempora, sit, ratione possimus exercitationem repellat numquam
-          delectus aspernatur, explicabo laboriosam fuga est? Itaque
-          reprehenderit consectetur et reiciendis? Ut molestiae, maiores qui
-          iste eligendi explicabo ipsa minus numquam id. Doloremque cum
-          laboriosam incidunt, quaerat placeat commodi obcaecati nulla culpa
-          impedit totam ipsum vel labore quibusdam ea illum doloribus soluta
-          accusantium delectus. Optio deserunt expedita molestiae eaque ut
-          mollitia eius blanditiis autem explicabo est a necessitatibus ipsam
-          animi, quod veniam, officiis nostrum cupiditate nisi aliquam in ullam
-          inventore culpa qui? Facere totam exercitationem neque voluptates
-          magni laboriosam? Porro obcaecati voluptas aliquid qui, dolores alias
-          aliquam quae autem dolor, nemo sapiente molestias, odio ab enim
-          consectetur saepe exercitationem ex voluptatem quis veniam accusantium
-          veritatis repellat velit dolorum. Repudiandae?
+          Zeus is the sky and thunder god in ancient Greek religion and
+          mythology, who rules as king of the gods on Mount Olympus. His name is
+          cognate with the first syllable of his Roman equivalent Jupiter. Zeus
+          is the child of Cronus and Rhea, the youngest of his siblings to be
+          born, though sometimes reckoned the eldest as the others required
+          disgorging from Cronus's stomach. In most traditions, he is married to
+          Hera, by whom he is usually said to have fathered Ares, Eileithyia,
+          Hebe, and Hephaestus. At the oracle of Dodona, his consort was said to
+          be Dione,by whom the Iliad states that he fathered Aphrodite.
+          According to the Theogony, Zeus' first wife was Metis, by whom he had
+          Athena. Zeus was also infamous for his erotic escapades. These
+          resulted in many divine and heroic offspring, including Apollo,
+          Artemis, Hermes, Persephone, Dionysus, Perseus, Heracles, Helen of
+          Troy, Minos, and the Muses. He was respected as a sky father who was
+          chief of the gods and assigned roles to the others: "Even the gods who
+          are not his natural children address him as Father, and all the gods
+          rise in his presence." He was equated with many foreign weather gods,
+          permitting Pausanias to observe "That Zeus is king in heaven is a
+          saying common to all men". Zeus' symbols are the thunderbolt, eagle,
+          bull, and oak. In addition to his Indo-European inheritance, the
+          classical "cloud-gatherer" (Greek: Νεφεληγερέτα, Nephelēgereta) also
+          derives certain iconographic traits from the cultures of the ancient
+          Near East, such as the scepter.
         </h2>
       </div>
     </div>

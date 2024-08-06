@@ -1,6 +1,6 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: auto;
+  margin: auto;
 }
 
 .wrapper {
@@ -13,16 +13,13 @@
   color: rgb(255, 255, 255);
   padding: 25px;
   margin: 25px;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 
 .blue_one {
-  color: blue;
+  color: #007bff;
   display: grid;
-  padding: 10px;
-  margin: 10px;
-  padding: 3px;
-  margin: 3px;
+  padding-bottom: 70px;
 }
 
 .others {
@@ -40,22 +37,16 @@
   color: whitesmoke;
 }
 
-.mountain {
-  width: 45px;
-  margin-top: 10px;
+.icons-container {
+  display: grid;
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: space-around; /* Равномерное распределение по горизонтали */
 }
 
-.cerberus {
+.mountain,
+.cerberus,
+.medusa,
+.ancientGrecee {
   width: 45px;
-  margin-top: 10px;
-}
-
-.medusa {
-  width: 45px;
-  margin-top: 10px;
-}
-
-.AncientGrecee {
-  width: 43px;
-  margin-top: 10px;
+  margin-top: 15px;
 }

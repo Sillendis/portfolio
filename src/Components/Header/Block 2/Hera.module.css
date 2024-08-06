@@ -1,0 +1,33 @@
+.All {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 20px;
+}
+.Hera {
+  width: 100%;
+  max-width: 500px;
+}
+
+.peacock {
+  width: 45px;
+}
+
+.info {
+  color: rgb(255, 255, 255);
+  display: grid;
+}
+
+.title_container {
+  margin-top: 20px; /* Поднимите заголовок выше */
+  border: 2px solid #00ffd5; /* Цвет и толщина рамки */
+  padding: 7px; /* Внутренние отступы */
+  background-color: grey; /* Фон */
+  color: rgb(255, 255, 255); /* Цвет текста */
+  border-radius: 20px;
+}
+
+h1 {
+  margin: 0; /* Убедитесь, что нет отступов вокруг заголовка */
+}
