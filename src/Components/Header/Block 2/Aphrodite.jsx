@@ -11,7 +11,7 @@ const Aphrodite = (props) => {
       <div className={styles.info}>
         <div className={styles.title_container}>
           <h1>
-            Hera
+            Aphrodite
             <img src={power} className={styles.heart} alt="heart" />
           </h1>
         </div>

@@ -27,6 +27,7 @@
 }
 
 .title_container {
+  margin-top: 5%;
   border: 2px solid #87cefa; /* Цвет и толщина рамки */
   padding: 7px; /* Внутренние отступы */
   background-color: rgb(0, 0, 0); /* Фон */
