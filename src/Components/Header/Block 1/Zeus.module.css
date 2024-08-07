@@ -1,13 +1,14 @@
 .All {
   display: grid;
   grid-template-columns: 55% 45%;
-  background-color: black;
-  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
 }
 
 .Zeus {
   width: 100%;
   max-width: 1000px;
+  margin-top: 50px;
 }
 
 .lightning {
@@ -21,11 +22,9 @@
 }
 
 .title_container {
-  margin-top: -20px; /* Поднимите заголовок выше */
   border: 2px solid #ffe600; /* Цвет и толщина рамки */
   padding: 7px; /* Внутренние отступы */
-  background-color: black; /* Фон */
-  display: inline-block; /* Чтобы рамка окружала только текст */
+  background-color: rgb(0, 0, 0); /* Фон */
   color: white; /* Цвет текста */
   border-radius: 20px;
 }

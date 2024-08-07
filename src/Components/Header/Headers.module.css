@@ -6,7 +6,7 @@
 .wrapper {
   background-color: rgb(0, 0, 0);
   display: grid;
-  grid-template-columns: 59% 10% 10% 12% 11%;
+  grid-template-columns: 57% 10% 10% 10% 10%;
 }
 
 .main_above {

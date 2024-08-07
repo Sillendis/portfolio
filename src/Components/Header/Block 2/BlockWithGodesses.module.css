@@ -1,17 +1,16 @@
 .mainBlock {
   display: grid;
   background-color: black;
-  padding: 20px;
+  padding: 50px;
 }
 
 .tytle_container {
   color: white;
-  margin-left: 300px;
-  margin-top: 15px;
+  margin-left: 380px;
   font-size: 45px; /* Измените размер шрифта по необходимости */
 }
 
-.button {
+.info_button {
   display: flex; /* Добавлено, чтобы центрировать кнопку внутри контейнера */
   justify-content: center; /* Центрирование по горизонтали */
   appearance: none; /* Убирает нативную оболочку кнопки */
@@ -20,11 +19,11 @@
   margin-right: 25%;
 }
 
-button {
+.info_button button {
   width: 170px;
   padding: 10px 15px; /* Отступы внутри кнопки */
   background-color: #007bff; /* Цвет фона */
-  color: white; /* Цвет текста */
+  color: rgb(0, 0, 0); /* Цвет текста */
   border: none; /* Уберите границу */
   border-radius: 10px; /* Скругленные углы */
   cursor: pointer; /* Курсор-указатель при наведении */
@@ -32,13 +31,13 @@ button {
   transition: background-color 0.5s, transform 0.5s; /* Плавный переход цвета и масштаба */
 }
 
-button:hover {
+.info_button button:hover {
   background-color: #ffffff; /* Цвет фона при наведении */
   color: black;
   transform: scale(1.1); /* Увеличение при наведении */
 }
 
-button:active {
+.info_button button:active {
   background-color: #007bff; /* Цвет фона при клике */
   transform: scale(0.85); /* Уменьшение при клике */
 }

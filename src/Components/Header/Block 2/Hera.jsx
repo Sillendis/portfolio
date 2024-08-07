@@ -16,12 +16,27 @@ const Hera = (props) => {
           </h1>
         </div>
         <h2>The goddess of marriage, women, and family</h2>
+        <br></br>
         <h3>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-          similique hic deserunt rem animi quibusdam distinctio dolorem odio
-          consectetur. Impedit est fugit similique obcaecati voluptas rem quo
-          deleniti consequatur sed!
+          In Greek mythology, she is queen of the twelve Olympians and Mount
+          Olympus, sister and wife of Zeus, and daughter of the Titans Cronus
+          and Rhea. One of her defining characteristics in myth is her jealous
+          and vengeful nature in dealing with any who offended her, especially
+          Zeus's numerous adulterous lovers and illegitimate offspring. Her
+          iconography usually presents her as a dignified, matronly figure,
+          upright or enthroned, crowned with a polos or diadem, sometimes veiled
+          as a married woman. She is the patron goddess of lawful marriage. She
+          presides over weddings, blesses and legalises marital unions, and
+          protects women from harm during childbirth. Her sacred animals include
+          the cow, cuckoo, and peacock. She is sometimes shown holding a
+          pomegranate as an emblem of immortality. Her Roman counterpart is
+          Juno.
         </h3>
+        <br></br>
+        <br></br>
+        <div>
+          <button className={styles.button_Hera}>Details</button>
+        </div>
       </div>
     </div>
   );
