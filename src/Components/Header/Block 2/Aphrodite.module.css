@@ -10,22 +10,23 @@
   margin-top: 5%;
 }
 
-.Aphrodite {
+.goddess {
   width: 100%;
-  max-width: 480px;
+  max-width: 500px;
 }
 
-.heart {
+.powerIcon {
   width: 45px;
 }
 
 .info {
   color: rgb(255, 255, 255);
   display: grid;
-  margin-right: 10%;
+  margin-right: 25%;
+  gap: 20px;
 }
 
-.title_container {
+.title_container{
   margin-top: 5%;
   border: 2px solid pink; /* Цвет и толщина рамки */
   padding: 7px; /* Внутренние отступы */
@@ -38,7 +39,7 @@ h1 {
   margin: 0; /* Убедитесь, что нет отступов вокруг заголовка */
 }
 
-.button_Aphrodite {
+.button {
   width: 170px;
   padding: 10px 15px;
   background-color: pink;
@@ -53,13 +54,13 @@ h1 {
   margin-bottom: 10%;
 }
 
-.button_Aphrodite:hover {
+.button:hover {
   background-color: #ffffff;
   color: black;
   transform: scale(1.1);
 }
 
-.button_Aphrodite:active {
+.button:active {
   background-color: pink;
   transform: scale(0.85);
 }

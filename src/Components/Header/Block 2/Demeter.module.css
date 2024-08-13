@@ -10,20 +10,20 @@
   margin-top: 5%;
 }
 
-.Demeter {
+.goddess {
   width: 100%;
-  max-width: 520px;
-  margin-left: 10%;
+  max-width: 500px;
 }
 
-.winter {
+.powerIcon {
   width: 45px;
 }
 
 .info {
   color: rgb(255, 255, 255);
   display: grid;
-  margin-right: 10%;
+  margin-right: 25%;
+  gap: 20px;
 }
 
 .title_container {
@@ -39,7 +39,7 @@ h1 {
   margin: 0; /* Убедитесь, что нет отступов вокруг заголовка */
 }
 
-.button_Demeter {
+.button {
   width: 170px;
   padding: 10px 15px;
   background-color: #87cefa;
@@ -54,13 +54,13 @@ h1 {
   margin-bottom: 10%;
 }
 
-.button_Demeter:hover {
+.button:hover {
   background-color: #ffffff;
   color: black;
   transform: scale(1.1);
 }
 
-.button_Demeter:active {
+.button:active {
   background-color: #87cefa;
   transform: scale(0.85);
 }
